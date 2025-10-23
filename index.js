@@ -7,6 +7,7 @@ app.get('/', (req,res,next) => {
 })
 
 app.get('/products', (req,res,next) => {
+    // this is products route
     return res.json({
         status: 200,
         message: "success"
