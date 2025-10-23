@@ -3,7 +3,7 @@ const assert = chai.assert;
 const added = require("../added");
 
 describe("added numbers", () => {
-    // this is sum and commit blablabla
+    
     it("testing two numbers", ()=>{
         assert.equal(added(2,5), 7, "test casses success");
     })
